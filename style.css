@@ -38,6 +38,11 @@ body {
     background-color: #555;
 }
 
+.CTA {
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer {
     background: #1F2937;
     display: flex;
