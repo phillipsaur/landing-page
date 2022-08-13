@@ -1,3 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,12 +42,19 @@ body {
     background-color: #555;
 }
 
-.CTA {
+.hero {
     display: flex;
-    justify-content: space-around;
+    flex: 0 1 50%;
 }
 
 .footer {
     background: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
