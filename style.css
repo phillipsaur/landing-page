@@ -68,6 +68,16 @@ button {
     width: 50px; 
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1, .img2, .img3 {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
 .footer {
     background: #1F2937;
     display: flex;
