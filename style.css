@@ -70,12 +70,25 @@ button {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.card1, .card2, .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .img1, .img2, .img3 {
     border: 2px solid blue;
     border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.text1, .text2, .text3 {
+    display: flex;
+    align-content: center;
 }
 
 .footer {
